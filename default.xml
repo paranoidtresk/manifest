@@ -31,6 +31,15 @@
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
 
+  <remote name="tresk"
+           fetch="https://github.com/paranoidtresk"/>
+
+  <remote  name="mtresk-gitlab"
+           fetch="https://gitlab.com/mTresk" />
+
+  <remote  name="pixel-gitlab"
+           fetch="https://gitlab.com/PixelExperience" />
+
   <default revision="refs/tags/LA.UM.8.2.1.r1-04200-sdm660.0"
            remote="caf"
            sync-j="4"
