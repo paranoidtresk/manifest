@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="manifest" remote="tresk" revision="quartz" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
