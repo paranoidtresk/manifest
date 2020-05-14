@@ -212,5 +212,7 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="mtresk-gitlab" revision="android-10" clone-depth="1" />
   <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" revision="ten" />
   <project path="vendor/google-customization" name="android_vendor_google-customization" remote="tresk" revision="quartz" />
+  <remove-project name="platform/system/apex" />
+  <project path="system/apex" name="android_system_apex" remote="tresk" revision="quartz" />
 
 </manifest>
