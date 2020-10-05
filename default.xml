@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r40"
+           revision="refs/tags/android-10.0.0_r41"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
@@ -15,8 +15,7 @@
            revision="quartz" />
 
   <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org" />
+           fetch="https://source.codeaurora.org/quic/la" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
@@ -41,11 +40,11 @@
            fetch="https://gitlab.com/PixelExperience" />
 
   <remote  name="caf_bluetooth"
-           fetch="git://codeaurora.org/quic/la"
+           fetch="git://source.codeaurora.org/quic/la"
            review="codeaurora.org"
-           revision="refs/tags/LA.UM.8.13.r1-09000-SAIPAN.0" />
+           revision="refs/tags/LA.UM.8.15.r1-06800-KAMORTA.0" />
 
-  <default revision="refs/tags/LA.UM.8.2.r2-02100-sdm660.0"
+  <default revision="refs/tags/LA.UM.8.15.r1-06800-KAMORTA.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
